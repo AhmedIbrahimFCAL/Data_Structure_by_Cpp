@@ -275,7 +275,7 @@ public:
     }
     
     friend bool operator>(const Student& student1, const Student& student2){
-        return student1.ID < student2.ID;
+        return student1.ID > student2.ID;
     }
     operator int()const{
         return this->ID;
@@ -305,3 +305,4 @@ int main(){
     }
     return 0;
 }
+
